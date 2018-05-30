@@ -27,11 +27,13 @@ h2{
 }
 
 h3{
-	font-size: 1.3em;	
+	font-size: 1.3em;
+	font-style: italic;
 }
 
 h4{
 	font-size: 1.2em;	
+	font-style: italic;
 }
 
 p{
@@ -41,9 +43,6 @@ p{
 .profile-pic{
 	border-radius: 50%;
 }
-.dates{
-	text-align: right;
-}
-.interests{
-	margin-left:15%;
+.dates h3{
+	font-weight: bold;
 }
