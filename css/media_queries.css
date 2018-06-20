@@ -1,16 +1,50 @@
-@media screen and (max-width: 1097px){
+@media screen and (max-width: 768px){
+	.container{
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.contact-section li{
+		display: block !important;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1097px){
 	.container {
-		margin-left: 2%;
-		margin-right: 2%;		
+		max-width: 769px;
+		width: 769px; 
 	}	
 }
 
+@media screen and (min-width: 1098px){
+	.container {
+		max-width: 960px;
+		width: 960px; 
+	}	
+}
+
+@media screen and (min-width: 1088px){
+	.container {
+		margin: 0 auto;
+	}
+}
+@media screen and (min-width: 1367px){
+	.container {
+		margin: 0 auto;
+	}
+}
+
 @media screen and (min-width: 768px){
+	.about-content{
+	margin-top: 5%;
+}
 	.dates{
 		text-align: right;
 	}
 	.interests{
 		margin-left:15%;
+	}
+	.projects, .interests-section{
+		border-left: 1px solid gray;
 	}
 }
 
